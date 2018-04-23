@@ -1,0 +1,22 @@
+#####Exercise 4.5
+1.Parent Class: Spell; Child Classes: Accio, Confundo, study_spell
+2.
+"Accio"
+"Summoning Charm Accio
+ No description"
+"Confundus Charm Confundo
+ Cause the victm to become confused and befuddled"
+3.
+The one define inside Confundo class
+4
+####Exercise 4.6
+class Address:
+	def __init__(self, street, num):
+		self.street_name = street
+		self.number = num
+
+class CampusAddress(Address):
+	def __init__(self, office_number):
+		self.office_number = office_number
+		self.street_name = "Massachusetts Ave"
+		self.number = "77"
